@@ -1,0 +1,42 @@
+export const Questions = [
+    {
+      prompt: "What is machine learning?",
+      optionA: "A type of programming language",
+      optionB: "A technique for training computers to learn from data",
+      optionC: "A form of artificial intelligence",
+      optionD: "A method for writing algorithms",
+      asnwer: "optionB",
+    },
+    {
+      prompt: "Which of the following is not a type of machine learning?",
+      optionA: "Supervised learning",
+      optionB: "Unsupervised learning",
+      optionC: "MC Reinforcement learning-03",
+      optionD: "Structured learning",
+      asnwer: "optionD",
+    },
+    {
+      prompt: "What is the primary goal of supervised learning?",
+      optionA: "To classify data into predefined categories",
+      optionB: "To find hidden patterns in data",
+      optionC: "To make predictions or decisions based on input data",
+      optionD: "To learn without any labeled data",
+      asnwer: "optionC",
+    },
+    {
+      prompt: "Which machine learning algorithm is used for clustering?",
+      optionA: "Linear Regression",
+      optionB: "Decision Trees",
+      optionC: "K-Means",
+      optionD: "Support Vector Machines",
+      asnwer: "optionC",
+    },
+    {
+      prompt: "What is overfitting in machine learning?",
+      optionA: "When a model performs well on training data but poorly on new, unseen data",
+      optionB: "When a model performs poorly on both training and test data",
+      optionC: "When a model is too simple to capture the underlying patterns in data",
+      optionD: "When a model cannot be trained due to a lack of data",
+      asnwer: "optionA",
+    },
+  ];

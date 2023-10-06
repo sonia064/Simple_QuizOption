@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #d0e5be;
+}
+
+.Menu {
+  width: 550px;
+  height: 650px;
+  border-radius: 50%;
+  background-color: rgb(12, 82, 189);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu input, button {
+  width: 450px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: #fefecb;
+}
+
+button:hover {
+  background-color: #f58f8f;
+  cursor: pointer;
+}
+
+.Quiz {
+  width: 530px;
+  height: 620px;
+  border-radius: 10px;
+  background-color: rgb(211, 70, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu, .Quiz, .EndScreen h1 {
+  color: white;
+}
+
+.EndScreen {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: rgb(209, 180, 15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#nextQuestion {
+  width: 200px;
+  background-color: #0000ef;
+  color: azure;
+}
+
+#nextQuestion:hover{
+  background-color: #06007b;
+}
+
+h3 {
+  color: #e80000;
+
+}
